@@ -1,4 +1,3 @@
-
 :root {
   --primary: #06A3DA;
   --secondary: #34AD54;
@@ -36,7 +35,7 @@ body {
   max-width: 100vw;
 }
 
-span{
+span {
   font-family: 'Times New Roman', Times, serif;
 }
 
@@ -98,7 +97,7 @@ h6,
 
 /*** Button ***/
 .btn {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   transition: .5s;
 }
@@ -135,7 +134,7 @@ h6,
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   position: relative;
   margin-left: 25px;
   padding: 35px 0;
@@ -242,14 +241,15 @@ h6,
   /* Adjust text size for better display on mobile */
 
   .carousel-caption {
-      margin-top: 0.5rem;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      background: rgba(118, 118, 119, 0.7);
-      z-index: 1;
-    }
+    margin-top: 0.5rem;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(105, 105, 105, 0.7);
+    z-index: 1;
+  }
+
   .carousel-caption h5 {
     font-size: 14px;
     font-weight: 500 !important;
