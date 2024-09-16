@@ -1,5 +1,5 @@
 :root {
-  --primary: #06A3DA;
+  --primary: #dc3545;
   --secondary: #34AD54;
   --light: #EEF9FF;
   --dark: #091E3E;
@@ -444,7 +444,6 @@ h6,
   box-shadow: 0 0 30px #DDDDDD;
 }
 
-
 /*** Team ***/
 .team-item {
   transition: .5s;
@@ -510,7 +509,6 @@ h6,
 .blog-item:hover .blog-img img {
   transform: scale(1.15);
 }
-
 
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
