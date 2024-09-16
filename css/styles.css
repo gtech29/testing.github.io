@@ -152,7 +152,7 @@ h6,
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: var(--primary);
+  color: var(--dark);
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -160,8 +160,8 @@ h6,
 }
 
 .navbar-dark .navbar-toggler {
-  color: var(--primary) !important;
-  border-color: var(--primary) !important;
+  color: var(--light) !important;
+  border-color: var(--light) !important;
 }
 
 @media (max-width: 991.98px) {
@@ -225,6 +225,7 @@ h6,
 
 
 /*** Carousel ***/
+
 .carousel-caption {
   margin-top: 2rem;
   top: 0;
@@ -233,6 +234,7 @@ h6,
   bottom: 0;
   background: rgba(118, 118, 119, 0.7);
   z-index: 1;
+  
 }
 
 @media (max-width: 576px) {
@@ -240,6 +242,11 @@ h6,
 
   /* Adjust text size for better display on mobile */
 
+    .carousel-item img {
+      object-fit: cover;
+      height: 100%;
+      width: 100%;
+    }
   .carousel-caption {
     margin-top: 0.5rem;
     top: 0;
@@ -370,7 +377,7 @@ h6,
 /*** Service ***/
 .service-item {
   position: relative;
-  height: 300px;
+  height: auto;
   padding: 0 30px;
   transition: .5s;
 }
